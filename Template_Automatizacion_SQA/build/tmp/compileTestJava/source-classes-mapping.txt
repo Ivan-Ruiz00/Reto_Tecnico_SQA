@@ -1,0 +1,6 @@
+co/sqasa/setup/Configuracion.java
+ co.sqasa.setup.Configuracion
+co/sqasa/StepDefition/NotaEnriquecidaStepDefinition.java
+ co.sqasa.StepDefition.NotaEnriquecidaStepDefinition
+co/sqasa/runners/escribirNotaEnriquecidaTest.java
+ co.sqasa.runners.escribirNotaEnriquecidaTest

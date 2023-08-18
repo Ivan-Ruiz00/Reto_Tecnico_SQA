@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Escribir una nota de texto enriquecida" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-08-18T18:41:03" hostname="LAPTOP-87LGHN0U" time="1.164">
+  <properties/>
+  <testcase name="Escribir nota en negrita" classname="Escribir una nota de texto enriquecida" time="1.164">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

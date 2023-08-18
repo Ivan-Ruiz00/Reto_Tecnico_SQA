@@ -42,7 +42,7 @@ public class Configuracion {
         webDriver.quit();
     }
 
-    protected void configurarNavegador() {
+    public void configurarNavegador(){
         setupUser();
         setUplog4j();
     }
