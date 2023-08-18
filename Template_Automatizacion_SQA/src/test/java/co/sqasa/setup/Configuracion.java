@@ -13,7 +13,7 @@ import static com.google.common.base.StandardSystemProperty.USER_DIR;
 import static co.sqasa.util.Log4j.LOG4J_PROPERTIES_FILE_PATH;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 
-public class Configuracion {
+public class Configuracion{
     private static final String SWITCHES = "--remote-allow-origins=*";
     private static final String ACTOR = "Ivan";
     @Managed()
@@ -42,7 +42,7 @@ public class Configuracion {
         webDriver.quit();
     }
 
-    public void configurarNavegador(){
+    protected void configurarNavegador(){
         setupUser();
         setUplog4j();
     }
