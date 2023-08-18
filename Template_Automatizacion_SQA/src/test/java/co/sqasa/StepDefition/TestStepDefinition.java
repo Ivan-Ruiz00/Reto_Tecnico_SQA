@@ -1,4 +1,4 @@
-package co.sqasa.StepDef;
+package co.sqasa.StepDefition;
 
 public class TestStepDefinition {
 
