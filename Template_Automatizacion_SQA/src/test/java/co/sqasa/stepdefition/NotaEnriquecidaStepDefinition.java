@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Assertions;
 
 import static co.sqasa.task.CrearNotaEnriquecida.crearNotaEnriquecida;
 import static co.sqasa.task.EscribirNota.escribirNota;
+import static co.sqasa.task.GuardarNota.guardarNota;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class NotaEnriquecidaStepDefinition extends Configuracion {
@@ -34,7 +35,7 @@ public class NotaEnriquecidaStepDefinition extends Configuracion {
             theActorInTheSpotlight().attemptsTo(
                     crearNotaEnriquecida(),
                     escribirNota().conLaNota("Hola, soy Ivan"),
-
+                    guardarNota()
             );
         }catch (Exception e){
             LOGGER.info("fallo el proceso de creación de una nota");

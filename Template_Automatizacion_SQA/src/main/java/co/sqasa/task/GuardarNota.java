@@ -13,4 +13,7 @@ public class GuardarNota implements Task {
                 Click.on(GUARDAR)
         );
     }
+    public static GuardarNota guardarNota(){
+        return new GuardarNota();
+    }
 }
