@@ -1,2 +1,12 @@
 co/sqasa/util/Log4j.java
  co.sqasa.util.Log4j
+co/sqasa/task/CrearNotaEnriquecida.java
+ co.sqasa.task.CrearNotaEnriquecida
+co/sqasa/task/EscribirNota.java
+ co.sqasa.task.EscribirNota
+co/sqasa/task/AbrirPaginaInicial.java
+ co.sqasa.task.AbrirPaginaInicial
+co/sqasa/ui/PaginaInicial.java
+ co.sqasa.ui.PaginaInicial
+co/sqasa/task/GuardarNota.java
+ co.sqasa.task.GuardarNota

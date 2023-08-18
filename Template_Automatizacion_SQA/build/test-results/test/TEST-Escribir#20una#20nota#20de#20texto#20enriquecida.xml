@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Escribir una nota de texto enriquecida" tests="1" skipped="1" failures="0" errors="0" timestamp="2023-08-18T18:41:03" hostname="LAPTOP-87LGHN0U" time="1.164">
+<testsuite name="Escribir una nota de texto enriquecida" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-08-18T19:32:45" hostname="LAPTOP-87LGHN0U" time="6.3">
   <properties/>
-  <testcase name="Escribir nota en negrita" classname="Escribir una nota de texto enriquecida" time="1.164">
-    <skipped/>
+  <testcase name="Escribir nota en negrita" classname="Escribir una nota de texto enriquecida" time="6.3">
+    <failure message="org.opentest4j.AssertionFailedError" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:35)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:98)
+	at co.sqasa.stepdefition.NotaEnriquecidaStepDefinition.estoyEnLaPaginaBlocDeNotasOnline(NotaEnriquecidaStepDefinition.java:28)
+	at ✽.estoy en la pagina bloc de notas online(file:///C:/Users/ivan0/Downloads/RETOQA_SQA/Reto_Tecnico_SQA/Template_Automatizacion_SQA/src/test/resources/features/escribirnotaenriquecida.feature:10)
+</failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 18262
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+log4j:WARN No appenders could be found for logger (co.sqasa.stepdefition.NotaEnriquecidaStepDefinition).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
 </testsuite>

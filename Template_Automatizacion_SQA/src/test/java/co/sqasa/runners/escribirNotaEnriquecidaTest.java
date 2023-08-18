@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         features = {"src/test/resources/features/escribirnotaenriquecida.feature"},
-        glue = {"com.sofkau.stepdefinitions"},
+        glue = {"co.sqasa.stepdefition"},
         tags = {}
 )
 public class escribirNotaEnriquecidaTest {
